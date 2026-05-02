@@ -1,16 +1,16 @@
 # Azure Event Grid (microsoft-azure-event-grid)
-Azure Event Grid is a fully managed event routing service for building event-driven architectures.
+Azure Event Grid provides APIs for publishing events to custom topics, managing event subscriptions with filtering, and configuring event delivery to endpoints including webhooks, Azure Functions, Event Hubs, and Storage Queues. It supports dead-lettering, retry policies, and custom event schemas.
 
 **URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/microsoft-azure-event-grid/refs/heads/main/apis.yml)
 
 ## Tags:
 
- - Events, Event-Driven, Pub-Sub
+ - Events, Event-Driven, Pub-Sub, Serverless
 
 ## Timestamps
 
-- **Created:** 2026-03-13
-- **Modified:** 2026-03-13
+- **Created:** 2024-01-01
+- **Modified:** 2026-04-28
 
 ## APIs
 
@@ -18,6 +18,12 @@ Azure Event Grid is a fully managed event routing service for building event-dri
 Azure Event Grid provides APIs for publishing events to custom topics, managing event subscriptions with filtering, and configuring event delivery to endpoints including webhooks, Azure Functions, Event Hubs, and Storage Queues. It supports dead-lettering, retry policies, and custom event schemas.
 
 **Human URL:** [https://learn.microsoft.com/en-us/rest/api/eventgrid/](https://learn.microsoft.com/en-us/rest/api/eventgrid/)
+
+**Base URL:** https://{topic}.{region}.eventgrid.azure.net/
+
+#### Tags:
+
+ - Events, Event-Driven, Pub-Sub, Serverless
 
 #### Properties
 
