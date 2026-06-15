@@ -1,7 +1,8 @@
 name: Azure Event Grid
-description: Azure Event Grid provides APIs for publishing events to custom topics, managing event subscriptions with filtering,
-  and configuring event delivery to endpoints including webhooks, Azure Functions, Event Hubs, and Storage Queues. It supports
-  dead-lettering, retry policies, and custom event schemas.
+description: >-
+  Azure Event Grid provides APIs for publishing events to custom topics, managing event subscriptions with filtering,
+  and configuring event delivery to endpoints including webhooks, Azure Functions, Event Hubs, and Storage Queues. It
+  supports dead-lettering, retry policies, and custom event schemas.
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - Events
@@ -14,26 +15,23 @@ specificationVersion: '0.18'
 url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-event-grid/refs/heads/main/apis.yml
 apis:
   - name: Azure Event Grid API
-    description: Azure Event Grid provides APIs for publishing events to custom topics, managing event subscriptions with filtering,
-      and configuring event delivery to endpoints including webhooks, Azure Functions, Event Hubs, and Storage Queues. It supports
-      dead-lettering, retry policies, and custom event schemas.
+    description: >-
+      Azure Event Grid provides APIs for publishing events to custom topics, managing event subscriptions with
+      filtering, and configuring event delivery to endpoints including webhooks, Azure Functions, Event Hubs, and
+      Storage Queues. It supports dead-lettering, retry policies, and custom event schemas.
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     humanURL: https://learn.microsoft.com/en-us/rest/api/eventgrid/
     baseURL: https://{topic}.{region}.eventgrid.azure.net/
     tags:
-    - Events
-    - Event-Driven
-    - Pub-Sub
-    - Serverless
+      - Events
+      - Event-Driven
+      - Pub-Sub
+      - Serverless
     properties:
-    - url: openapi/microsoft-azure-event-grid-openapi.yml
-      type: OpenAPI
-    - type: Documentation
-      url: https://learn.microsoft.com/en-us/rest/api/eventgrid/
-    - type: NaftikoCapability
-      url: capabilities/microsoft-azure-event-grid-operations.yaml
-    - type: NaftikoCapability
-      url: capabilities/microsoft-azure-event-grid-topics.yaml
+      - url: openapi/microsoft-azure-event-grid-openapi.yml
+        type: OpenAPI
+      - type: Documentation
+        url: https://learn.microsoft.com/en-us/rest/api/eventgrid/
 common:
   - type: GitHubOrganization
     url: https://github.com/Azure
