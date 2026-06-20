@@ -3,7 +3,7 @@ description: >-
   Azure Event Grid provides APIs for publishing events to custom topics, managing event subscriptions with filtering,
   and configuring event delivery to endpoints including webhooks, Azure Functions, Event Hubs, and Storage Queues. It
   supports dead-lettering, retry policies, and custom event schemas.
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Events
   - Event-Driven
@@ -19,7 +19,7 @@ apis:
       Azure Event Grid provides APIs for publishing events to custom topics, managing event subscriptions with
       filtering, and configuring event delivery to endpoints including webhooks, Azure Functions, Event Hubs, and
       Storage Queues. It supports dead-lettering, retry policies, and custom event schemas.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://learn.microsoft.com/en-us/rest/api/eventgrid/
     baseURL: https://{topic}.{region}.eventgrid.azure.net/
     tags:
