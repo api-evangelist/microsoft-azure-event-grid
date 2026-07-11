@@ -33,6 +33,10 @@ apis:
       - type: Documentation
         url: https://learn.microsoft.com/en-us/rest/api/eventgrid/
 common:
+  - type: DomainSecurity
+    url: security/microsoft-azure-event-grid-domain-security.yml
+  - type: Authentication
+    url: authentication/microsoft-azure-event-grid-authentication.yml
   - type: OAuthScopes
     url: scopes/microsoft-azure-event-grid-scopes.yml
   - type: GitHubOrganization
