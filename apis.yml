@@ -33,6 +33,8 @@ apis:
       - type: Documentation
         url: https://learn.microsoft.com/en-us/rest/api/eventgrid/
 common:
+  - type: AgenticAccess
+    url: agentic-access/microsoft-azure-event-grid-agentic-access.yml
   - type: DomainSecurity
     url: security/microsoft-azure-event-grid-domain-security.yml
   - type: Authentication
