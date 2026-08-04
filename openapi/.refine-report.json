@@ -1,0 +1,16 @@
+{
+  "provider": "microsoft-azure-event-grid",
+  "sources": [
+    "microsoft-azure-event-grid-operations-api-openapi.yml",
+    "microsoft-azure-event-grid-topics-api-openapi.yml"
+  ],
+  "outputs": [
+    "microsoft-azure-event-grid-operations-api-openapi.yml",
+    "microsoft-azure-event-grid-topics-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [],
+  "skipped": []
+}
