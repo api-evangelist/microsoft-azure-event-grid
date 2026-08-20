@@ -18,6 +18,11 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-azure-event-grid.png
 tags:
+  - Event
+  - Event-Driven
+  - Pub-Sub
+  - Serverless
+tags_raw:
   - Events
   - Event-Driven
   - Pub-Sub
@@ -32,7 +37,8 @@ apis:
   description: Operations operations
   humanURL: https://learn.microsoft.com/en-us/rest/api/eventgrid/
   baseURL: https://{topic}.{region}.eventgrid.azure.net/
-  tags:
+  tags: []
+  tags_raw:
   - Operations
   properties:
   - type: OpenAPI
