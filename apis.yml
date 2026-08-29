@@ -3,6 +3,18 @@ description: >-
   Azure Event Grid provides APIs for publishing events to custom topics, managing event subscriptions with filtering,
   and configuring event delivery to endpoints including webhooks, Azure Functions, Event Hubs, and Storage Queues. It
   supports dead-lettering, retry policies, and custom event schemas.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: true
+  label: Hosted service · you call their endpoint
+  confidence: high
+  source:
+  - openapi
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: self-serve
